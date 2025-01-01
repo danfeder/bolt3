@@ -1,0 +1,13 @@
+# Frontend development dependencies
+# Node.js packages are managed through package.json
+# This file is for documentation purposes
+
+# Core
+node >= 18.0.0
+npm >= 9.0.0
+
+# Build tools
+vite
+typescript
+
+# Note: All other frontend dependencies are managed through package.json

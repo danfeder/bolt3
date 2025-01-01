@@ -1,0 +1,7 @@
+# Backend dependencies
+ortools==9.7.2996
+fastapi==0.109.2
+uvicorn==0.27.1
+python-multipart==0.0.6
+pandas==2.2.0
+numpy==1.26.4
