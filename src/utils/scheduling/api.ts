@@ -21,7 +21,12 @@ export async function generateSchedule(
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        classes,
+        classes: classes.map(cls => ({
+          id: cls.id,
+          name: cls.name,
+          gradeLevel: cls.gradeLevel,
+          constraints: cls.constraints
+        })),
         teacherConstraints,
         periodsPerDay,
         maxPeriodsPerDay: constraints.maxPeriodsPerDay,
